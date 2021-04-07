@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trabalho_login.activity_home">
+
+    <TextView
+        android:id="@+id/bemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:layout_x="38dp"
+        android:layout_y="164dp"
+        android:text="Welcome"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/botao1"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="299dp"
+        android:onClick="logout"
+        android:text="@string/Login"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+</AbsoluteLayout>
